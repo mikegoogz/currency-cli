@@ -1,0 +1,22 @@
+{
+  "name": "currency-cli",
+  "version": "1.0.0",
+  "description": "Currency Check Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "author": "Michael Mwauara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.0.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "neat-csv": "^5.2.0",
+    "prettyjson": "^1.2.1"
+  }
+}
